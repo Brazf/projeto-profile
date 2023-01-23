@@ -1,3 +1,26 @@
-h1 {
-    color: orange;
+* {
+    box-sizing: border-box;
 }
+
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+.nav-container {
+    background-color: #2c3e50;
+    height: 100px;
+    width: 100%;
+}
+
+.nav-main {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    /* SÓ PRA ENTENDER A PARTE DE RESPONSIVIDADE: -> */ border: 1px solid red;
+}
+
+.nav-main a {
+    color: #FFF;
+}
+
