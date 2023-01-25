@@ -3,6 +3,7 @@
 }
 
 html, body {
+    font-family: 'Montserrat', sans-serif;
     padding: 0;
     margin: 0;
 }
@@ -11,16 +12,62 @@ html, body {
     background-color: #2c3e50;
     height: 100px;
     width: 100%;
+    padding: 20px;
 }
 
 .nav-main {
+    display: flex;
     width: 100%;
     max-width: 960px;
     margin: 0 auto;
-    /* SÓ PRA ENTENDER A PARTE DE RESPONSIVIDADE: -> */ border: 1px solid red;
+    flex-direction: column;
+    align-items: center;
 }
 
 .nav-main a {
     color: #FFF;
+    text-transform: uppercase;
+    text-decoration: none;
 }
 
+.menu-items {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-items li {
+    font-size: 14px;
+    margin: 10px;
+}
+
+.nav-brand {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5;
+}
+
+.profile-container {
+    background-color: #1ABC9C;
+    color: #FFF;
+    padding: 60px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-avatar img {
+    width: 150px;
+    height: 150px;
+}
+
+.profile-title {
+    margin: 35px 0 0 0;
+    font-size: 2rem;
+}
+
+.profile-description {
+    margin: 0px;
+    font-size: 1rem;
+}
